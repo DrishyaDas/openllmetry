@@ -8,7 +8,7 @@ from opentelemetry.instrumentation.utils import (
     _SUPPRESS_INSTRUMENTATION_KEY,
 )
 from opentelemetry.semconv_ai import Events, EventAttributes
-from opentelemetry.semconv_ai import SpanAttributes as AISpanAttributes, Meters
+from opentelemetry.semconv_ai import SpanAttributes as AISpanAttributes
 
 
 def _with_tracer_wrapper(func):
